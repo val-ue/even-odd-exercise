@@ -1,0 +1,61 @@
+/*****General Styles *****/
+
+.flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+h3{
+    color: bisque;
+}
+
+/***** Styles *****/
+
+body {
+  width: 100%;
+  background-color: black;
+  color: black;
+  font-family: "Rubik", serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 25px 0 0 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+main {
+  height: 100%;
+  flex-direction: column;
+}
+
+button {
+    font-family: "Rubik", serif;
+    font-size: 20px;
+    font-weight: 500;
+    border-style: none;
+}
+
+.number-clicker {
+  background-color: orange;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.columns {
+  width: 80%;
+  justify-content: space-around;
+}
+
+.single-column {
+  flex-direction: column;
+}
